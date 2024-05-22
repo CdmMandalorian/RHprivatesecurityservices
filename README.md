@@ -1,10 +1,32 @@
-# Getting Started with Create React App
+# R & H | Private Security Services
+<div align="center">
+  <img alt="Demo" src="client/public/Images/rhprivatesecurityservicesHome1920.png" />
+</div>
 
+## React Web Application
+
+
+# Description
+
+React Web Application. This project has two features:
+
+1. . Fully Responsive React Application
+2. . React Contact Form
+
+# Getting Started with Create React App
+## 🛠 Installation
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
-
 In the project directory, you can run:
+
+## Dependencies
+
+- Nodejs - The runtime environment of the application
+- Reactjs - Component based UI library
+- Emailjs - Send Contact Form Email using Js
+
+
 
 ### `npm start`
 
@@ -68,3 +90,65 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+### Running
+
+After this you can run the project locally:
+
+- To run the front end
+  - <code>cd client</code>
+  - <code>npm start</code>
+- To run the back end
+  - <code>cd server</code>
+  - <code>npm run dev</code>
+    TIP: Run both in split terminal so that you can see both ends running
+
+# Languages and tools
+
+- [Node](https://nodejs.org)
+- [React](https://reactjs.org/)
+- [Material UI](https://mui.com/)
+- [Bootstrap](https://getbootstrap.com/)
+- [React Bootstrap](https://react-bootstrap.netlify.app/) 
+<br />
+
+## Screenshots 
+
+<img src="client/public/Images/rhprivatesecurityservicesHome1920.png">
+
+<img src="client/public/Images/rhprivatesecurityservicesAbout1920.png">
+
+<img src="client/public/Images/rhprivatesecurityservicesMission1920.png">
+
+<img src="client/public/Images/rhprivatesecurityservicesServices1920.png">
+
+<img src="client/public/Images/rhprivatesecurityservicesContact1920.png">
+
+
+<br />
+
+## Live:
+  Visit R & H Private Security Services [here](https://exactmatchpersonnel.com/ "Link to EMP").
+<br />
+
+## Contribution | Special Thanks ⭐
+
+
+    NASA | Unsplash Stock Image HD Wallpapers › HD City Wallpapers Los Angeles by Night
+
+Visit [here](https://unsplash.com/photos/aerial-photography-of-city-during-night-time-1lfI7wkGWZ4).
+    
+    
+
+## License
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+<br />
+
+### Show your support
+
+Give a ⭐ if you like this website!
+
+
+# Portfotlio
+My personal portfolio which features some of my Github Projects as well as my Resume and Technical Skills. [💼](https://cdmmandalorian.github.io/AEGcodesPortfolio/ "Link AEGcodes Portfolio").
