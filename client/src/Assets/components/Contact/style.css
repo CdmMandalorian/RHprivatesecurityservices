@@ -1,0 +1,15 @@
+label{
+    color: white;
+}
+h5{
+    color: white;
+}
+div#contact.contact-section.container-fluid {
+    background-color: #5398be;
+}
+.errorMessage {
+    color: #fff;
+}
+input#resume.is-invalid-input {
+    color: #fff;
+}
