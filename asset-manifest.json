@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/RHprivatesecurityservices/static/css/main.0e5412c5.css",
+    "main.js": "/RHprivatesecurityservices/static/js/main.6b967c69.js",
+    "static/js/453.68693753.chunk.js": "/RHprivatesecurityservices/static/js/453.68693753.chunk.js",
+    "static/media/nasa-1lfI7wkGWZ4-unsplash.jpg": "/RHprivatesecurityservices/static/media/nasa-1lfI7wkGWZ4-unsplash.5b356b6cabba96ef4080.jpg",
+    "static/media/USAflag.png": "/RHprivatesecurityservices/static/media/USAflag.3ffe44d47a6e2390c754.png",
+    "static/media/RHprivatesecurityservices(2).png": "/RHprivatesecurityservices/static/media/RHprivatesecurityservices(2).b7709d03e7ef115e9aa1.png",
+    "index.html": "/RHprivatesecurityservices/index.html",
+    "main.0e5412c5.css.map": "/RHprivatesecurityservices/static/css/main.0e5412c5.css.map",
+    "main.6b967c69.js.map": "/RHprivatesecurityservices/static/js/main.6b967c69.js.map",
+    "453.68693753.chunk.js.map": "/RHprivatesecurityservices/static/js/453.68693753.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0e5412c5.css",
+    "static/js/main.6b967c69.js"
+  ]
+}
