@@ -114,15 +114,15 @@ After this you can run the project locally:
 
 ## Screenshots 
 
-<img src="./client//public/Images/rhprivatesecurityservicesHome1920.png">
+<img src="./client/public/Images/rhprivatesecurityservicesHome1920.png">
 
-<img src="./client//public/Images/rhprivatesecurityservicesAbout1920.png">
+<img src="./client/public/Images/rhprivatesecurityservicesAbout1920.png">
 
-<img src="./c/public/Images/rhprivatesecurityservicesMission1920.png">
+<img src="./client/public/Images/rhprivatesecurityservicesMission1920.png">
 
-<img src="./client//public/Images/rhprivatesecurityservicesServices1920.png">
+<img src="./client/public/Images/rhprivatesecurityservicesServices1920.png">
 
-<img src="./client//public/Images/rhprivatesecurityservicesContact1920.png">
+<img src="./client/public/Images/rhprivatesecurityservicesContactWfooter1920.png">
 
 
 <br />
