@@ -4,12 +4,12 @@ import './index.css'
 import './style.css'
 import { Route , Routes} from 'react-router-dom';
 import { BrowserRouter as Router } from 'react-router-dom';
-import Home from './Assets/components/Home/Home';
-import About from "./Assets/components/About/About";
-import Navbar from './Assets/components/Navbar/Navbar';
-import Mission from './Assets/components/Mission/Mission'
-import Services from './Assets/components/Cards/Cards';
-import Contact from './Assets/components/Contact/Contact'
+import Home from './components/Home/Home'
+import About from "./components/About/About";
+import Navbar from './components/Navbar/Navbar';
+import Mission from './components/Mission/Mission'
+import Services from './components/Cards/Cards';
+import Contact from './components/Contact/Contact'
 import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {

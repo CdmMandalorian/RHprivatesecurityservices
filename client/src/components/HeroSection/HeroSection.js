@@ -1,7 +1,7 @@
 import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Col from 'react-bootstrap/Col';
-import logo from '../../Images/RHprivatesecurityservices(2).png'
+import logo from '../../Assets/Images/RHprivatesecurityservices(2).png'
 
 
 function HeroSection() {

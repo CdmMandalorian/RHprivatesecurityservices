@@ -2,7 +2,7 @@ import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap'
 import './style.css';
 import Contactform from "./ContactForm";
-import contactImg from '../../Images/RHprivatesecurityservices.png'
+import contactImg from '../../Assets/Images/RHprivatesecurityservices.png'
 
 
 function Contact () {

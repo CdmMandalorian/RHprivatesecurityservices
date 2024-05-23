@@ -1,9 +1,9 @@
 import React from "react";
-import '../../../style.css'
+import '../../style.css'
 import { Container, Row, Col } from "react-bootstrap";
 import Link from '@mui/material/Link';
-import Flag from '../../Images/USAflag.png';
-import footerImg from '../../Images/RHprivatesecurityservices.png'
+import Flag from '../../Assets/Images/USAflag.png';
+import footerImg from '../../Assets/Images/RHprivatesecurityservices.png'
 
 
 function Footer() {

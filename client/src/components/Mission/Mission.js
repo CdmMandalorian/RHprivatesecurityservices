@@ -1,5 +1,5 @@
 import { Container, Row, Col } from 'react-bootstrap'
-import logo from '../../Images/RHprivatesecurityservices.png'
+import logo from '../../Assets/Images/RHprivatesecurityservices.png'
 
 function Mission() {
     return (
