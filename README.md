@@ -127,8 +127,8 @@ After this you can run the project locally:
 
 <br />
 
-## Live:
-  Visit R & H Private Security Services [here](https://exactmatchpersonnel.com/ "Link to EMP").
+<!-- ## Live:
+  Visit R & H Private Security Services [here](https://exactmatchpersonnel.com/ "Link to EMP"). -->
 <br />
 
 ## Contribution | Special Thanks ⭐
