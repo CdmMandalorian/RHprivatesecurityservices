@@ -14,6 +14,13 @@
 	z-index: 1;
 	position: absolute;
 }
+.moonPhaseEmoji{
+    display: none;
+}
+.moonPhaseEmoji2{
+    font-size: 35px;
+    margin-bottom: 4px;
+}
 
 /* --------- */
 /*Scrollbar   */
@@ -74,10 +81,11 @@ img.img-fluid.logo {
 nav.bg-body-tertiary.navbar.navbar-expand-lg.navbar-light{
     background-color: #33658a !important;
     position: sticky;
+    height: 51.594px;
 }
 
 .navbar-nav {
-    text-align-last: left;
+    text-align-last: right;
 }
 a.nav-link{
     color: #f5b51b !important;
@@ -108,15 +116,15 @@ h1.about {
     text-align: center;
 }
 .about-container.container-fluid {
-    height: 93.6vh;
+    height: 95vh;
 }
 div.about-description.row{
     text-align: center;
 }
 div.about-container.container-fluid {
     background-color: #18181a;
-    margin-top: -9px;
-    padding-top: 14px;
+    margin-top: -6px;
+    padding-top: 31px;
 }
 .recruitingPositions_item.col {
     display: inline-block;
@@ -160,8 +168,9 @@ div.about-container.container-fluid {
 
 .mission-container.container-fluid{
     background-color: #151516;
-    padding-top: 14px;
-    height: 92.6vh;
+    padding-top: 31px;
+    margin-top: -6px;
+    height: 95vh;
 }
 .mission-img.col-md-5 {
     text-align: center;
@@ -178,15 +187,143 @@ hr.about {
     margin-left: -124px;
     width: 120%;
 }
+.cards {
+    padding: 4rem;
+    background-color: #121213;
+    padding-top: 15px;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #f5b51b;
+  }
+  
+  .cards__container {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    max-width: 1120px;
+    width: 90%;
+    margin: 0 auto;
+  }
+  
+  .cards__wrapper {
+    position: relative;
+    margin: 50px 0 45px;
+  }
+  
+  .cards__items {
+    margin-bottom: 24px;
+  }
+  
+  .cards__item {
+    display: flex;
+    flex: 1;
+    margin: 0 1rem;
+    border-radius: 10px;
+  }
+  
+  .cards__item__link {
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+    box-shadow: 0 6px 20px #fff;
+    -webkit-filter: drop-shadow(0 6px 20px #fff);
+    filter: drop-shadow(0 6px 20px #fff);
+    border-radius: 10px;
+    overflow: hidden;
+    text-decoration: none;
+  }
+  
+  .cards__item__pic-wrap {
+    position: relative;
+    width: 100%;
+    padding-top: 67%;
+    overflow: hidden;
+  }
+  
+  .fade-img {
+    animation-name: fade-img;
+    animation-duration: 2s;
+  }
+  
+  .cards__item__pic-wrap::after {
+    content: attr(data-category);
+    position: absolute;
+    bottom: 0;
+    margin-left: 10px;
+    padding: 6px 8px;
+    max-width: calc((100%) - 60px);
+    font-size: 12px;
+    font-weight: 700;
+    color: #fff;
+    background-color: #1f98f4;
+    box-sizing: border-box;
+  }
+  
+  .cards__item__img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    transition: all 0.2s linear;
+  }
+  
+  .cards__item__img:hover {
+    transform: scale(1.1);
+  }
+  
+  .cards__item__info {
+    padding: 20px 30px 30px;
+    background: #fff;
+  }
+  
+  .cards__item__text {
+    color: #252e48;
+    font-size: 18px;
+    line-height: 24px;
+  }
+div.gallery-container.container-fluid {
+    padding: 4rem;
+    background-color: #0A0A0B;
+    padding-top: 15px;
+    height: 95vh;
+    padding-top: 31px;
+    margin-top: -6px;
+    font-weight: 500;
+  }
+img.d-block.w-100{
+    height: 558px;
+}
+div.gallery-img.col-md-5{
+    margin-left: 564px;
+} 
+h5.carouselCaption{
+    text-shadow: 3px 3px 3px #cac9c9;
+} 
+p.carouselCaption{
+    text-shadow: 3px 3px 3px #cac9c9;
+}
+img.galleryImg-fluid{
+    height: 180px;
+} 
 .contact.col-md-7 {
     width: 515px;
     display: contents;
 }
 div#contact.contact-section.container-fluid {
-    padding-top: 30px;
+    margin-top: -6px;
+    padding-top: 31px;
     padding-left: 55px;
     text-align: center;
-    height: 92.6vh;
+    height: 95vh;
 }
 hr.contact {
     width: 1144px;
@@ -319,19 +456,19 @@ h5.contact{
         margin-top: 455px;
     }
     .about-container.container-fluid {
-        height: 95.4vh;
+        height: 96.4vh;
     }
     .hero-container.container{
         max-width: 2553px;
     }
     .mission-container.container-fluid{
-        height: 94.7vh;
+        height: 96.4vh;
     }
     .cards{
-        height: 94.7vh;
+        height: 96vh;
     }
     div#contact.contact-section.container-fluid {
-        height: 94.7vh;
+        height: 96.4vh;
     }
     .about.container {
         margin-top: 150px;
@@ -345,6 +482,25 @@ h5.contact{
     .footer.container-fluid{
         width: 100%;
     }
+    div.gallery-container.container-fluid {
+        padding: 4rem;
+        background-color: #0A0A0B;
+        padding-top: 15px;
+        height: 96.4vh;
+        font-weight: 500;
+      }
+    img.d-block.w-100{
+        height: 900px;
+    }
+    div.gallery-img.col-md-5{
+        margin-left: 546px;
+    } 
+    h5.carouselCaption{
+        text-shadow: 3px 3px 3px #cac9c9;
+    } 
+    p.carouselCaption{
+        text-shadow: 3px 3px 3px #cac9c9;
+    } 
 
 }
 /*  XX-Large devices (larger desktops, 1400px and up) */
@@ -356,17 +512,39 @@ h5.contact{
     .footer-copywright.col-md-4 {
         font-size: 0.71rem;
     }
-    .about-container.container-fluid {
-        height: 93.5vh;
+    div.about-container.container-fluid {
+        height: 96vh;
+        margin-top: -5px;
+        padding-top: 150px;
     }
-    .mission-container.container-fluid{
-        height: 92.5vh;
+    div.mission-container.container-fluid{
+        height: 96vh;
+        margin-top: -5px;
+        padding-top: 150px;
     }
+    div.gallery-container.container-fluid {
+        padding-top: 15px;
+        height: 96.09vh;
+      }
+    img.d-block.w-100{
+        height: 820px;
+    }
+    div.gallery-img.col-md-5{
+        margin-left: 546px;
+    }
+    img.galleryImg-fluid{
+        height: 175px;
+    } 
     div#contact.contact-section.container-fluid {
-        height: 92.5vh;
+        height: 96vh;
+        margin-top: -5px;
+        padding-top: 150px;
+    }
+    div.footer-copywright.col-md-4{
+        font-size: 0.60rem;
     }
 }
-@media (min-width: 1281px) and (max-width: 1366px) {
+@media (min-width: 1281px) and (max-width: 1367px) {
     h5.about{
         font-size: 1.15rem;
     }
@@ -379,27 +557,17 @@ h5.contact{
     h1.about{
         font-size: 2.3rem;
     }
-    .about-container.container-fluid{
-        height: 92.4vh;
-    }
     h4.mission{
         font-size: 1.2rem;
     }
     h1.mission{
         font-size: 2.3rem
     }
-    .mission-container.container-fluid{
-        height: 91.2vh;
-    }
     h1.scards{
         font-size: 2.3rem;
     }
     h1.contactHeading{
         font-size: 2.3rem;
-    }
-    div#contact.contact-section.container-fluid{
-        padding-top: 14px;
-        height: 91.2vh;
     }
     .contact-img.col-md-5{
         margin-top: 3px;
@@ -421,13 +589,20 @@ h5.contact{
         padding-left: 360px;
     }
     hr.about{
-        margin-left: -110px;
+        margin-left: -28px;
     }
     .footer-copywright.col-md-4{
         font-size: 0.67rem;
     }
+    div.gallery-img.col-md-5{
+        margin-left: 464px;
+    }
+
 }
 @media (min-width: 993px) and (max-width: 1280px) {
+    img.img-fluid.logo {
+        
+    }
     h5.about{
         font-size: 1.10rem;
     }
@@ -648,9 +823,15 @@ h5.contact{
     }
 }
 @media screen and (width <=915px) { 
+    div.navbar-nav{
+        display: -webkit-inline-box;
+        font-size: 14px;
+        margin-left: -8px;
+    }
     img.img-fluid.logo{
-        width: 110px;
-        margin-left: 32px;
+        width: 136px;
+        margin-left: 20px;
+        margin-top: 285px;
     }
     h3.hero{
         font-size: 14px;
@@ -705,6 +886,23 @@ h5.contact{
     img.missionImg-fluid{
         height: 140px;
         margin-right: 16px;
+    }
+    .cards{
+        padding-top: 31px;
+        margin-top: -6px;
+    }
+    div.gallery-container.container-fluid{
+        height: 105vh;
+    }
+    div.gallery-description.row{
+        width: 388px;
+        margin-left: -82px;
+    }
+    div.gallery-img.col-md-5{
+        margin-left: 25px;
+    }
+    img.d-block.w-100{
+        height: 562px;
     }
     .row.formRow{
         margin-left: 10px;
@@ -830,7 +1028,15 @@ h5.contact{
     font-size: 30px;
     margin-top: -24px;
    
+
 }
-
-
+.moonPhaseEmoji{
+    font-size: 25px;
+    margin-top: -7px;
+    margin-left: -15px;
+    display: flex;
+}
+.moonPhaseEmoji2{
+    display: none;
+}
 }

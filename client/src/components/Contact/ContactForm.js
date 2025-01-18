@@ -89,7 +89,7 @@ const Contactform = () => {
                                 <hr className="contact"></hr>
                                 <span>
                                     <FontAwesomeIcon icon={faSquarePhone} style={{ color: "#f5b51b" }} />
-                                    <h5 className="contact"> 323 909 - 1234 </h5>
+                                    <h5 className="contact"> 323  535 - 9112 </h5>
                                     <FontAwesomeIcon icon={faMapLocationDot} style={{ color: "#f5b51b" }} />
                                     <h5 className="contact"> Los Angeles, California 🌴🌙 </h5>
                                     <FontAwesomeIcon icon={faEnvelope} style={{ color: "#f5b51b" }} />

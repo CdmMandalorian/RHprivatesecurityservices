@@ -1,3 +1,4 @@
+import './style.css'
 import { Container, Row, Col } from 'react-bootstrap'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faWarehouse } from "@fortawesome/free-solid-svg-icons";
@@ -22,7 +23,7 @@ import { faIdCardClip } from '@fortawesome/free-solid-svg-icons';
 import { faShopLock } from '@fortawesome/free-solid-svg-icons';
 import { faPerson } from '@fortawesome/free-solid-svg-icons';
 import { faSchoolFlag } from '@fortawesome/free-solid-svg-icons';
-
+import BuildingImg from '../../Assets/Images/buildingImg.jpg'
 
 function About() {
     return (
@@ -33,9 +34,9 @@ function About() {
         </h1>
         <Row className='about-description' style={{color: 'white' }}>
           <Col >
-            <h3 className="about">R & H</h3>
+            <h3 className="about">R | H</h3>
             <h4 className="about">Private Security Services</h4>
-            <h5 className="about">R & H Private Security Services is a Private Sercurity Firm that Specializes Protecting Your Environment. </h5>
+            <h5 className="about">R | H Private Security Services is a Private Sercurity Firm that Specializes Protecting Your Environment. </h5>
             <h5 className="about">Connecting with our Team, We Develop a Comprehensive Understanding of our Staffs' Skills, Aspirations, Needs, and Repertoire to Match Your Exact Organization. </h5>
             <h5 className="about">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  </h5>
             <h5 className='about'>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h5>
@@ -47,13 +48,15 @@ function About() {
             <h5 className="about">Etiam non quam lacus suspendisse. Adipiscing enim eu turpis egestas pretium aenean pharetra.</h5>
             <h5 className='about'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Consequat id porta nibh venenatis cras sed felis. Habitant morbi tristique senectus et netus et malesuada fames ac.</h5>
             <br className="about1"></br>
-            
-            <Col className="jobs">
-              <Container className="jobs">
-                <Row>
-                  <Col className="recruitingPositions_item">
-                  Building Security
-                  <br></br>
+              <Col className="jobs">
+                <Container className="jobs">
+                  <Row>
+                    
+                    <Col className="recruitingPositions_item" >
+                    
+                    <text id='Building'>Building Security</text>  
+
+                      <br></br>
                   <FontAwesomeIcon icon={faIdCard} style={{color: "#f5b51b", paddingRight: "8%"}}/>
                   <FontAwesomeIcon icon={faBuilding} style={{color: "#f5b51b"}}/>
                   </Col>

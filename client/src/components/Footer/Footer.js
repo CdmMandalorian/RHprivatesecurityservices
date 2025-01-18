@@ -24,7 +24,7 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="https://www.instagram.com/"
+                href="https://www.instagram.com/rh_private_security_service"
                 style={{ color: "white" }}
               >
                 <i className="fab fa-instagram"></i>
@@ -40,7 +40,7 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="https://www.whatsapp.com/"
+                href="https://wa.me/13235359112"
                 style={{ color: "white" }}
               >
                 <i className="fab fa-whatsapp"></i>

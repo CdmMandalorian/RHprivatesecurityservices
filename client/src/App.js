@@ -10,6 +10,7 @@ import Navbar from './components/Navbar/Navbar';
 import Mission from './components/Mission/Mission'
 import Services from './components/Cards/Cards';
 import Contact from './components/Contact/Contact'
+import Gallery from "./components/Gallery/Gallery";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
             <Route path='/mission' element={<Mission />} />
             <Route path='/services' element={<Services />} />
             <Route path='/contact' element={<Contact />} />
+            <Route path='/gallery' element={<Gallery/>} />
           </Routes>
       </Router>
     </>
