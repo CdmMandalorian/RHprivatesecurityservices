@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect} from "react";
 import './App.css'
 import './index.css'
 import './style.css'
@@ -14,7 +14,12 @@ import Gallery from "./components/Gallery/Gallery";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
-
+  const [load, upadateLoad] = useState(true);
+  useEffect(() => {
+    setTimeout(() => {
+      upadateLoad(false);
+    }, 1200);
+  }, []);
   return(
     <>
       <Router >
