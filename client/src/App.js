@@ -4,6 +4,7 @@ import './index.css'
 import './style.css'
 import { Route , Routes} from 'react-router-dom';
 import { BrowserRouter as Router } from 'react-router-dom';
+import Preloader from '../src/components/Pre'
 import Home from './components/Home/Home'
 import About from "./components/About/About";
 import Navbar from './components/Navbar/Navbar';
@@ -23,14 +24,16 @@ function App() {
   return(
     <>
       <Router >
+      <Preloader load={load} />
+      <div className="App" id={load ? "no-scroll" : "scroll"}></div>
         <Navbar />
           <Routes>
-            <Route index element={<Home />} />
-            <Route path='/about' element={<About />} />
-            <Route path='/mission' element={<Mission />} />
-            <Route path='/services' element={<Services />} />
-            <Route path='/contact' element={<Contact />} />
-            <Route path='/gallery' element={<Gallery/>} />
+            <Route path='/' element={<Home />} />
+            <Route path='/RHprivatesecurityservices/about' element={<About />} />
+            <Route path='/RHprivatesecurityservices/mission' element={<Mission />} />
+            <Route path='/RHprivatesecurityservices/services' element={<Services />} />
+            <Route path='/RHprivatesecurityservices/contact' element={<Contact />} />
+            <Route path='/RHprivatesecurityservices/gallery' element={<Gallery/>} />
           </Routes>
       </Router>
     </>
