@@ -49,7 +49,7 @@ function Footer() {
           </ul>
         </Col>
         <Col md="4" className="footer-copywright">
-        <Link color="inherit" href="/"
+        <Link color="inherit" href="/RHprivatesecurityservices/"
         className="corp">
         R H Private Security Services <img src={footerImg} alt='footerlogo' height='40px' width='40px'/>  
       </Link>{' '}{' © '} 

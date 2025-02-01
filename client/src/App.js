@@ -28,12 +28,12 @@ function App() {
       <div className="App" id={load ? "no-scroll" : "scroll"}></div>
         <Navbar />
           <Routes>
-            <Route path='/' element={<Home />} />
+            <Route path='/RHprivatesecurityservices/' element={<Home />} />
             <Route path='/RHprivatesecurityservices/about' element={<About />} />
             <Route path='/RHprivatesecurityservices/mission' element={<Mission />} />
             <Route path='/RHprivatesecurityservices/services' element={<Services />} />
             <Route path='/RHprivatesecurityservices/contact' element={<Contact />} />
-            <Route path='/RHprivatesecurityservices/gallery' element={<Gallery/>} />
+            <Route path='/RHprivatesecurityservices/gallery' element={<Gallery />} />
           </Routes>
       </Router>
     </>
