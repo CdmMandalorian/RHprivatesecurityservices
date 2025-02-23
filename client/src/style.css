@@ -284,11 +284,18 @@ hr.about {
     padding: 20px 30px 30px;
     background: #fff;
   }
-  
+  .cards__item__title {
+    color: #252e48;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    font-weight: 700;
+  }
   .cards__item__text {
     color: #252e48;
     font-size: 18px;
     line-height: 24px;
+    text-align: center;
   }
 div.gallery-container.container-fluid {
     padding: 4rem;
@@ -545,6 +552,9 @@ h5.contact{
     }
 }
 @media (min-width: 1281px) and (max-width: 1367px) {
+    img.img-fluid.logo{
+        max-width: 480px;
+    }
     h5.about{
         font-size: 1.15rem;
     }
@@ -600,68 +610,87 @@ h5.contact{
 
 }
 @media (min-width: 993px) and (max-width: 1280px) {
-    /* img.img-fluid.logo {
-        
-    } */
-    h5.about{
-        font-size: 1.10rem;
-    }
-    h4.about{
-        font-size: .95rem;
-    }
-    h3.about{
-        font-size: 1.60rem;
+    img.img-fluid.logo {
+        width: 340px;
+        margin-left: 151px;
     }
     h1.about{
-        font-size: 2.25rem;
+        font-size: 2.1rem;
+        margin-bottom: 6px;
     }
+    h5.about{
+        font-size: 1.05rem;
+        margin-bottom: 2.5px;
+    }
+    h4.about{
+        font-size: 1.2rem;
+        margin-bottom: 3px;
+    }
+    h3.about{
+        font-size: 1.5rem;
+        margin-bottom: 2px;
+    }
+    
     .about-container.container-fluid{
-        height: 92.7vh;
+        height: 93.6vh;
     }
     hr.about{
         margin-left: -60px;
         width: 110%;
     }
     h4.mission{
-        font-size: 1.2rem;
+        font-size: 1.24rem;
+        margin-bottom: 4px;
     }
     h1.mission{
-        font-size: 2.25rem;
+        font-size: 2.1rem;
+        margin-bottom: 6px;
     }
     .mission-container.container-fluid{
-        height: 91.5vh;
+        height: 93.6vh;
+    }
+    img.missionImg-fluid{
+        height: 160px;
     }
     h1.scards{
-        font-size: 2.25rem;
+        font-size: 2.10rem;
+    }
+    .cards{
+        padding: .5rem;
     }
     h1.contactHeading{
-        font-size: 2.25rem;
+        font-size: 2.1rem;
+        margin-bottom: 6px;
     }
     div#contact.contact-section.container-fluid{
         padding-top: 14px;
-        height: 91.5vh;
+        height: 93.6vh;
     }
     .contact-img.col-md-5{
         margin-top: 7px;
     }
     hr.contact{
-        margin-top: 4px;
-        margin-bottom: 4px;
+        margin-top: 2px;
+        margin-bottom: 2px;
     }
     h5.contact{
         font-size: 1.15rem;
+        margin-bottom: 4px;
     }
     br.contact{
         display: none;
     }
     textarea#message.form-control.formInput{
-        height: 90px;
+        height: 88px;
+    }
+    img.img-fluid-contact{
+        height: 144px;
     }
     .footer-flagImg.col-md-4{
         padding-left: 340px;
     }
     .footer-copywright.col-md-4{
-        font-size: 0.62rem;
+        font-size: 0.57rem;
     }
 }
 @media screen and (width <= 1024px) {

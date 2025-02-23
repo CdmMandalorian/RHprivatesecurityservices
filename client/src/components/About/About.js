@@ -23,7 +23,6 @@ import { faIdCardClip } from '@fortawesome/free-solid-svg-icons';
 import { faShopLock } from '@fortawesome/free-solid-svg-icons';
 import { faPerson } from '@fortawesome/free-solid-svg-icons';
 import { faSchoolFlag } from '@fortawesome/free-solid-svg-icons';
-import BuildingImg from '../../Assets/Images/buildingImg.jpg'
 
 function About() {
     return (
@@ -36,17 +35,19 @@ function About() {
           <Col >
             <h3 className="about">R | H</h3>
             <h4 className="about">Private Security Services</h4>
-            <h5 className="about">R | H Private Security Services is a Private Sercurity Firm that Specializes Protecting Your Environment. </h5>
-            <h5 className="about">Connecting with our Team, We Develop a Comprehensive Understanding of our Staffs' Skills, Aspirations, Needs, and Repertoire to Match Your Exact Organization. </h5>
-            <h5 className="about">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  </h5>
-            <h5 className='about'>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h5>
+            <h5 className="about">R | H Private Security Services is a Private Sercurity Firm that Specializes Protecting Your Environment.</h5>
+            <h5 className="about">Connecting with our Team, Developing a Comprehensive Plan Matching Your Exact Organizations' Security Aspirations.</h5>
+            <h5 className="about">Founded 2015 in Los Angeles, within the Community.</h5>
+            <h5 className='about'>Earning Trust, Displaying Integrity, Committed to Safety as a Priority.</h5>
+            <h5 className='about'>Whether the Level of Security is High or Low We Offer Premier Security Service.</h5>
             <br className="aboutBR"></br>
-            <h4 className="about"></h4>
-            <h5 className="about">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Venenatis urna cursus eget nunc scelerisque viverra.</h5>
-            <h5 className="about">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h5>
-            <h5 className="about">Our Commitment.  Cursus eget nunc scelerisque viverra mauris in aliquam.</h5>
-            <h5 className="about">Etiam non quam lacus suspendisse. Adipiscing enim eu turpis egestas pretium aenean pharetra.</h5>
-            <h5 className='about'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Consequat id porta nibh venenatis cras sed felis. Habitant morbi tristique senectus et netus et malesuada fames ac.</h5>
+            <h4 className="about">24 / 7 Premier Support</h4>
+            <h5 className="about">Dedicated in Fundamental Philoshophies, Maintaining a Dynamic Workforce.</h5>
+            <h5 className="about">Unparalleled Commitment to Achieve Business Protection.</h5>
+            <h5 className="about">Understanding our Versatile Clients Needs, Incorporating Rapid Adaptability.</h5>
+            <h5 className="about">Control and Command the Unpredictable.</h5>
+            <h5 className="about">Any Time Anywhere</h5>
+            <h5 className='about'>R | H Private Security Services</h5>
             <br className="about1"></br>
               <Col className="jobs">
                 <Container className="jobs">

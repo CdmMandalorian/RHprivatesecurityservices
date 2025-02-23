@@ -1,5 +1,10 @@
 import './style.css';
 import CardItem from '../CardItem/CardItem'
+import armedGuard from '../../Assets/Images/armed_Guard.jpg'
+import uniformedSecurity from '../../Assets/Images/uniformed_Security.jpg'
+import unarmedGuard from '../../Assets/Images/unarmed_Guard.jpg'
+import k9 from '../../Assets/Images/michael-dziedzic-si06cFB0g1s-unsplash.jpg'
+import Trained from '../../Assets/Images/roman-koester-FbtfRkRCvJc-unsplash.jpg'
 
 function Services() {
   return (
@@ -10,35 +15,37 @@ function Services() {
         <div className='cards__wrapper'>
           <ul className='cards__items'>
           <CardItem
-              src='Images/certification-3352920_1280.jpg'
-              text='Highly Trained Certified Security Guards. '
+              src={Trained}
+              title=' Verified Trained Security Guards 📜 '
+              text=' BSIS Certified Required. Background-checked Certified.'
               label='Certified'
               
             />
             <CardItem
-              src='Images/maayan-nemanov-2lVDdshknXI-unsplash.jpg'
-              text='Trained Specialized K9 Patrol Units. '
+              src={k9}
+              title=' Specialized K9 Patrol Units 🐾 '
+              text=' On | Off Leash Collaboration with Trained Dogs.'
               label='K9 Patrol Unit'
               
             />
           </ul>
           <ul className='cards__items'>
             <CardItem
-              src='Images/tobias-tullius-4dKy7d3lkKM-unsplash.jpg'
-              text='Integrity reveals Beauty. Integrity is the Essence of Everything Successful. Subtlety May Deceive You. Integrity Never Will. '
-              label='Integrity'
+              src={unarmedGuard}
+              text=' Reliable Committed Security For A Safe Secure Environment '
+              label='Unarmed Guard'
               
             />
             <CardItem
-              src='Images/20240420_201925.jpg'
-              text='Individual Commitment to a group Effort. That is what Makes a Team Work, a Company Work, a Society Work ....'
-              label='Commitment'
+              src={uniformedSecurity}
+              text=' Private Event Security Guards Tailored For VIP Protection '
+              label='Uniformed Security'
               
             />
             <CardItem
-              src='Images/kaffeebart-KrPulSdUetk-unsplash.jpg'
-              text='People who Truly Understand what is Meant by Self-Reliance, Know they Must Live their Lives by Ethics rather than Rules. '
-              label='Reliance'
+              src={armedGuard}
+              text=' Trained Licensed Armed Guards Prioritize Safeguarding '
+              label='Armed Guard'
               
             />
           </ul>
