@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/RHprivatesecurityservices/static/css/main.d8d1d0dd.css",
+    "main.css": "/RHprivatesecurityservices/static/css/main.bc0b4949.css",
     "main.js": "/RHprivatesecurityservices/static/js/main.60a5634b.js",
     "static/media/RanchoECA.jpg": "/RHprivatesecurityservices/static/media/RanchoECA.fd26fe780b0c82d8cf36.jpg",
     "static/media/buildingImg.jpg": "/RHprivatesecurityservices/static/media/buildingImg.20b670c18d8ea0a8f86d.jpg",
@@ -13,11 +13,11 @@
     "static/media/unarmed_Guard.jpg": "/RHprivatesecurityservices/static/media/unarmed_Guard.c184a9f2a408ab895ccf.jpg",
     "static/media/USAflag.png": "/RHprivatesecurityservices/static/media/USAflag.61b9024fe961a7b3fe50.png",
     "index.html": "/RHprivatesecurityservices/index.html",
-    "main.d8d1d0dd.css.map": "/RHprivatesecurityservices/static/css/main.d8d1d0dd.css.map",
+    "main.bc0b4949.css.map": "/RHprivatesecurityservices/static/css/main.bc0b4949.css.map",
     "main.60a5634b.js.map": "/RHprivatesecurityservices/static/js/main.60a5634b.js.map"
   },
   "entrypoints": [
-    "static/css/main.d8d1d0dd.css",
+    "static/css/main.bc0b4949.css",
     "static/js/main.60a5634b.js"
   ]
 }
