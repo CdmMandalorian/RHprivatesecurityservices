@@ -297,7 +297,7 @@ hr.about {
     line-height: 24px;
     text-align: center;
   }
-div.gallery-container.container-fluid {
+.gallery-container.container-fluid {
     padding: 4rem;
     background-color: #0A0A0B;
     padding-top: 15px;
@@ -309,7 +309,7 @@ div.gallery-container.container-fluid {
 img.d-block.w-100{
     height: 558px;
 }
-div.gallery-img.col-md-5{
+.gallery-img.col-md-5{
     margin-left: 564px;
 } 
 h5.carouselCaption{
@@ -457,7 +457,12 @@ h5.contact{
   .blockquote-footer {
     color: #147B41 !important;
   }
-  
+@media (min-width: 3201px) and (max-width: 3840px) {
+
+}   
+@media (min-width: 2561px) and (max-width: 3200px) {
+
+}  
 @media (min-width: 1921px) and (max-width: 2560px) {
     img.img-fluid.logo{
         margin-top: 455px;
@@ -508,6 +513,9 @@ h5.contact{
     p.carouselCaption{
         text-shadow: 3px 3px 3px #cac9c9;
     } 
+
+}
+@media screen and (width <= 1600px) {
 
 }
 /*  XX-Large devices (larger desktops, 1400px and up) */
@@ -696,6 +704,7 @@ h5.contact{
 @media screen and (width <= 1024px) {
     img.img-fluid.logo{
         margin-top: 340px;
+        margin-left: 85px;
     }
     hr.contact{
         width: 855px;
@@ -727,7 +736,7 @@ h5.contact{
         font-size: 2.15rem;
     }
     .about-container.container-fluid{
-        height: 92.5vh;
+        height: 96.05vh;
     }
     hr.about{
         margin-left: -34px;
@@ -743,16 +752,28 @@ h5.contact{
         margin-top: -21px;
     }
     .mission-container.container-fluid{
-        height: 91.3vh;
+        height: 96.05vh;
+    }
+    .cards{
+        height: 95.5vh;
     }
     h1.scards{
         font-size: 2.15rem;
+    }
+    .gallery-container.container-fluid{
+        height: 96.05vh;
+    }
+    .gallery-img.col-md-5 {
+        margin-left: 294px;
+    }
+    img.galleryImg-fluid{
+        height: 288px;
     }
     h1.contactHeading{
         font-size: 2.15rem;
     }
     div#contact.contact-section.container-fluid{
-        height: 91.3vh;
+        height: 96.05vh;
     }
     .contact-img.col-md-5{
         margin-top: 5px;
@@ -851,6 +872,124 @@ h5.contact{
         font-size: 0.49rem;
     }
 }
+@media screen and (width <=991px) { 
+    .moonContainer {
+        margin-right: 4px;
+        font-size: 30px;
+        margin-top: -24px;
+    }
+    .moonPhaseEmoji{
+        font-size: 35px;
+        margin-top: -14px;
+        margin-left: -15px;
+        display: flex;
+    }
+    .moonPhaseEmoji2{
+        display: none;
+    }
+    div.navbar-nav{
+        display: -webkit-inline-box;
+    }
+    button.navbar-toggler.collapsed{
+        margin-bottom: 8px;
+    }
+    button.navbar-toggler{
+        margin-bottom: 8px;
+    }
+    #responsive-navbar-nav.navbar-collapse.collapse.show{
+        text-align: center!important;
+    }
+    .collapsing{
+        text-align: center;
+    }
+    img.img-fluid.logo{
+        max-width: 440px;
+        margin-left: 21px;
+        margin-top: 280px;
+    }
+    div.about-container.container-fluid{
+        height: 96.05vh;
+        padding-top: 194px;
+    }
+    h5.about{
+        font-size: 1.1rem;
+        margin-bottom: 0;
+    }
+    h4.about{
+        font-size: 1rem;
+
+    }
+    h3.about{
+        font-size: 1.60rem;
+        margin-bottom: 0;
+    }
+    h1.about{
+        font-size: 2.2rem;
+        margin-bottom: 0;
+    }
+    hr.about{
+        width: 107%;
+    }
+    .mission-container.container-fluid{
+        height: 96.05vh;
+        padding-top: 194px;
+    }
+    div.mission-description.row{
+        max-width: 77%;
+        margin-left: 197px;
+    }
+    h4.mission{
+        font-size: 1.2rem;
+    }
+    h1.mission{
+        font-size: 2.2rem;
+    }
+    img.missionImg-fluid{
+        height: 305px;
+        padding-top: 20px;
+        margin-top: 20px;
+    }
+    h1.scards{
+        font-size: 2.2rem;
+    }
+    .cards{
+        height: 240vh;
+        padding-top: 57px;
+    }
+    .gallery-container.container-fluid{
+        padding-top: 62px;
+    }
+    .gallery-img.col-md-5{
+        margin-left: 196px;
+    }
+    h1.contactHeading{
+        font-size: 2.2rem;
+    }
+    div#contact.contact-section.container-fluid{
+        height: 96.05vh;
+        padding-top: 62px; 
+    }
+    div.row.formRow{
+        margin-left: 144px;
+    }
+    div.row.subjectForm{
+        margin-left: 144px;
+    }
+    div.row.messageForm{
+        margin-left: 144px;
+    }
+    hr.contact{
+        width: 696px;
+    }
+    img.img-fluid-contact{
+        height: 294px;
+        padding-top: 15px;
+        margin-top: 40px;
+    }
+    div.footer-copywright.col-md-4{
+        font-size: 0.44rem;
+    }
+}
 @media screen and (width <=915px) { 
     div.navbar-nav{
         display: -webkit-inline-box;
@@ -858,8 +997,8 @@ h5.contact{
         margin-left: -8px;
     }
     img.img-fluid.logo{
-        width: 136px;
-        margin-left: 20px;
+        max-width: 376px;
+        margin-left: 33px;
         margin-top: 285px;
     }
     h3.hero{
@@ -883,10 +1022,10 @@ h5.contact{
     }
     div#contact.contact-section.container-fluid {
         padding-left: 11px;
-        height: 93.6vh;
+        height: 96.05vh;
     }
     hr.contact{
-        width: 377px;
+        width: 690px;
     }
     input#name.form-control.formInput {
         width: 330px;
@@ -907,31 +1046,30 @@ h5.contact{
         width: 330px;
     }
     h4.navBrand-heading{
-        font-size: 1.1rem;
+        font-size: 1.25rem;
     }
     h4.mission{
-        font-size: 1rem;
+        font-size: 1.2rem;
     }
     img.missionImg-fluid{
-        height: 140px;
+        height: 280px;
         margin-right: 16px;
     }
     .cards{
-        padding-top: 31px;
+        padding-top: 54px;
         margin-top: -6px;
     }
     div.gallery-container.container-fluid{
         height: 105vh;
     }
-    div.gallery-description.row{
-        width: 388px;
-        margin-left: -82px;
-    }
     div.gallery-img.col-md-5{
-        margin-left: 25px;
+        margin-left: 195px;
     }
     img.d-block.w-100{
         height: 562px;
+    }
+    .contact.row{
+        flex-direction: column;
     }
     .row.formRow{
         margin-left: 10px;
@@ -944,37 +1082,39 @@ h5.contact{
     }
     .contact-img.col-md-5{
         margin-top: 30px;
+        margin-left: 198px;
     }
     .footer-flagImg.col-md-4{
         width: 70px;
-        padding-left: 60px;
+        padding-left: 217px;
     }
     .footer-body.col-md-4{
         padding-left: 2px;
         padding-right: 23px;
     }
-}
-@media (max-width: 896px) { 
-    hr.about{
-        margin-left: -24px;
-        width: 114%;
-    }
-    .mission-img.col-md-5{
-        margin-top: 5px;
-    }
-    div#contact.contact-section.container-fluid {
-        height: 93.5vh;
+    div.footer-copywright.col-md-4{
+        font-size: 0.40rem;
     }
 }
-@media (max-width: 896px) { 
+@media (max-width: 896px) {
+    img.img-fluid.logo{
+        max-width: 360px;
+    } 
     h4.navBrand-heading{
-        font-size: 1rem;
+        font-size: 1.2rem;
     }
     .about-container.container-fluid{
         height: 164vh;
     }
+    hr.about{
+        margin-left: -24px;
+        width: 107%;
+    }
     .mission-container.container-fluid{
         height: 122vh;
+    }
+    .mission-img.col-md-5{
+        margin-top: 17px;
     }
     div#contact.contact-section.container-fluid {
         height: 100vh;
@@ -998,13 +1138,52 @@ h5.contact{
         font-size: 12px;
         width: 160px;
     }
-    hr.contact{
-        width: 360px;
+    div.row.formRow{
+        margin-left: 158px;
     }
+    div.row.subjectForm{
+        margin-left: 158px;
+    }
+    div.row.messageForm{
+        margin-left: 158px;
+    }
+    hr.contact{
+        width: 680px;
+    }
+    img.img-fluid-contact{
+        height: 280px;
+        padding-top: 15px;
+        margin-top: 24px;
+    }
+    div.footer-copywright.col-md-4{
+        font-size: 0.39rem;
+    }
+    .footer-flagImg.col-md-4{
+        padding-left: 210px;
+    }
+    
 }    
 @media screen and (width <=800px) { 
     h4.navBrand-heading{
-        font-size: .94rem;
+        font-size: 1.1rem;
+    }
+    .moonContainer {
+        margin-right: 4px;
+        font-size: 30px;
+        margin-top: -24px;
+    }
+    .moonPhaseEmoji{
+        font-size: 33px;
+        margin-top: -14px;
+        margin-left: -15px;
+        display: flex;
+    }
+    .moonPhaseEmoji2{
+        display: none;
+    }
+    img.img-fluid.logo{
+        max-width: 333px;
+        margin-left: 29px;
     }
     .about-container.container-fluid{
         height: 167vh;
@@ -1025,7 +1204,8 @@ h5.contact{
         margin-left: 0;
     }
     hr.contact{
-        width: 351px;
+        width: 515px;
+        margin-left: 88px;
     }
     .col-12.text-center{
         padding-right: 0;
@@ -1037,6 +1217,15 @@ h5.contact{
     }
     h3.hero{
         width: 151px;
+    }
+    div.row.formRow{
+        margin-left: 170px;
+    }
+    div.row.subjectForm{
+        margin-left: 170px;
+    }
+    div.row.messageForm{
+        margin-left: 170px;
     }
     .footer-copywright.col-md-4{
         font-weight: 700;
@@ -1052,20 +1241,10 @@ h5.contact{
     flex: 0 0 15%;
     max-width: 15%;
    }
-   .moonContainer {
-	margin-right: 4px;
-    font-size: 30px;
-    margin-top: -24px;
-   
-
+   div.footer-copywright.col-md-4{
+    font-size: 0.5rem;
 }
-.moonPhaseEmoji{
-    font-size: 25px;
-    margin-top: -7px;
-    margin-left: -15px;
-    display: flex;
-}
-.moonPhaseEmoji2{
-    display: none;
+ul.footer-icons{
+    width: 90px;
 }
 }
